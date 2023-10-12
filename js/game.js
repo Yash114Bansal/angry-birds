@@ -217,10 +217,10 @@ class tnt {
             tnts.splice(j, 1);
 
             const gifImage = new Image();
-            gifImage.src = "images/explosion.gif"; 
+            gifImage.src = "images/explosion1.gif"; 
             gifImage.style.position = "absolute";
-            gifImage.style.top = tnt.position.y + "px";
-            gifImage.style.left = tnt.position.x + "px"; 
+            gifImage.style.top = tnt.position.y -55 +"px";
+            gifImage.style.left = tnt.position.x -35 + "px"; 
             document.body.appendChild(gifImage); 
 
             // Add the GIF image to the array
